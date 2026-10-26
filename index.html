@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="Operation: Success — a cinematic encouragement mission for a Grade 6 CBC learner.">
+  <title>Operation: Success | Your Next Chapter Starts Now</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#mission">Skip to mission</a>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Operation Success home"><span class="brand-mark">OS</span><span>OPERATION<span class="brand-colon">:</span> SUCCESS</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">MENU ☰</button>
+    <nav id="siteNav" class="nav">
+      <a href="#courage">Courage</a><a href="#mission">Mission plan</a><a href="#training">Training</a><a href="#finale">Final transmission</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse"></span> CLASSIFIED BRIEFING // GRADE 6 CBC</p>
+          <h1>YOUR NEXT<br><span>CHAPTER</span><br>STARTS NOW<span class="accent">.</span></h1>
+          <p class="lead">Every page you revise. Every question you attempt. Every time you try again after a difficult topic. It all counts.</p>
+          <p class="hero-sub">Your mission is not to be perfect. Your mission is to keep moving forward.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#mission">ACCEPT THE MISSION <span aria-hidden="true">↗</span></a><a class="text-link" href="#courage">GET YOUR INSPIRATION ↓</a></div>
+          <div class="status-row"><span>MISSION STATUS <b class="status-live">● READY</b></span><span>OBJECTIVE <b>DO YOUR BEST</b></span></div>
+        </div>
+        <div class="hero-art">
+          <div class="art-frame"><img src="assets/images/anime-art-01.webp" alt="Anime-inspired artwork supplied for this personal motivation website"><div class="scanline"></div><span class="frame-label top-left">FIELD RECORD // 001</span><span class="frame-label bottom-right">COURAGE IS A CHOICE</span></div>
+          <div class="hud-card"><span class="hud-number">01</span><span><b>OPERATION GRADE 6</b><small>TRAINING PROTOCOL ACTIVE</small></span><span class="hud-dot"></span></div>
+        </div>
+      </div>
+      <div class="ticker"><span>FOCUS 100%</span><span>FEAR RESPONSE: OVERRIDDEN</span><span>SCROLL TO BEGIN ↓</span></div>
+    </section>
+
+    <section id="courage" class="section-shell section courage">
+      <div class="section-head"><p class="eyebrow red">01 / COURAGE PROTOCOL</p><h2>FIND YOUR INNER <span>STRENGTH.</span></h2><p>Even the bravest people feel afraid. Courage is choosing to keep going anyway.</p></div>
+      <div class="quote-grid">
+        <article class="quote-card"><img src="assets/images/anime-art-02.webp" alt="Anime artwork from the supplied image collection"><div class="quote-content"><p class="card-tag">FIELD NOTE 01</p><blockquote>“The world is cruel, but it is also very beautiful.”</blockquote><p class="credit">Mikasa Ackerman · <i>Attack on Titan</i></p><p class="takeaway">When a topic feels hard, remember there is still something worth learning on the other side of the struggle.</p></div></article>
+        <article class="quote-card"><img src="assets/images/anime-art-03.webp" alt="Anime artwork from the supplied image collection"><div class="quote-content"><p class="card-tag">FIELD NOTE 02</p><blockquote>Bravery is taking the next step, even when you are nervous.</blockquote><p class="credit">Original motivational message</p><p class="takeaway">You do not need to know every answer before you begin. Start with the one in front of you.</p></div></article>
+        <article class="quote-card"><img src="assets/images/anime-art-04.webp" alt="Anime artwork from the supplied image collection"><div class="quote-content"><p class="card-tag">FIELD NOTE 03</p><blockquote>Your effort today is building the person you become tomorrow.</blockquote><p class="credit">Original motivational message</p><p class="takeaway">Every revision session is progress, even if you make mistakes along the way.</p></div></article>
+      </div>
+      <p class="fine-print">Unofficial fan-inspired project. Character and series names belong to their respective rights holders. Quotations and translations can vary by release.</p>
+    </section>
+
+    <section id="mission" class="section-shell section mission-section">
+      <div class="section-head"><p class="eyebrow">02 / EXAM MISSION BRIEFING</p><h2>YOU DON'T NEED TO FEEL READY.<br><span>YOU NEED TO BEGIN.</span></h2><p>One question at a time. One step at a time. You can do this.</p></div>
+      <div class="mission-layout">
+        <div class="strategy-panel panel"><div class="panel-heading"><span>◈ FIELD MANUAL</span><span>6 DIRECTIVES</span></div>
+          <ol class="strategy-list"><li>Read every question carefully.</li><li>Start with the questions you understand.</li><li>Show your working where appropriate.</li><li>If a question gets difficult, breathe and move on. Return to it later.</li><li>Check your answers before submitting.</li><li>Sleep well, eat properly, and drink water.</li></ol>
+        </div>
+        <div class="tracker-panel panel"><div class="panel-heading"><span>◈ MISSION TRACKER</span><span id="taskCount">0 / 5 COMPLETE</span></div><p class="panel-intro">Tick each task when you finish it. Your progress is saved on this device.</p>
+          <div class="task-list" id="taskList">
+            <label class="task"><input type="checkbox" data-task="0"><span>Choose one topic to revise</span></label>
+            <label class="task"><input type="checkbox" data-task="1"><span>Practise a few questions</span></label>
+            <label class="task"><input type="checkbox" data-task="2"><span>Review mistakes and learn why</span></label>
+            <label class="task"><input type="checkbox" data-task="3"><span>Pack what you need for exam day</span></label>
+            <label class="task"><input type="checkbox" data-task="4"><span>Take a break and recharge</span></label>
+          </div><div class="progress-track"><span id="taskProgress"></span></div><button class="button button-outline button-small" id="resetTasks">RESET CHECKLIST</button><p class="fine-print">Reset clears this checklist on this device only.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="training" class="section-shell section training-section">
+      <div class="section-head"><p class="eyebrow cyan">03 / SIMULATION CHAMBER</p><h2>SYSTEM ONLINE.<br><span>FEAR OFFLINE.</span></h2><p>Twenty-five focused minutes. One topic. No need to do everything at once.</p></div>
+      <div class="simulator panel">
+        <div class="sim-top"><span class="system-dot"></span> TRAINING SIMULATOR <span class="sim-state" id="timerState">STANDBY</span></div>
+        <div class="timer" id="timerDisplay" role="timer" aria-live="off">25:00</div>
+        <p class="timer-help" id="timerHelp">Ready when you are. Press start to begin your focus session.</p>
+        <div class="timer-controls"><button class="button button-primary" id="startTimer">START SESSION</button><button class="button button-outline" id="pauseTimer" disabled>PAUSE</button><button class="button button-outline" id="resetTimer">RESET</button></div>
+        <div class="progress-track timer-track"><span id="timerProgress"></span></div>
+        <div class="sim-checks"><div><b>01</b><span>CHOOSE ONE TOPIC</span></div><div><b>02</b><span>PRACTISE FIVE QUESTIONS</span></div><div><b>03</b><span>REVIEW YOUR MISTAKES</span></div><div><b>04</b><span>TAKE A SHORT BREAK</span></div></div>
+        <button class="sound-toggle" id="soundToggle" aria-pressed="false">SOUND EFFECTS: OFF</button><p class="fine-print">Sound is optional and off by default. The timer works without sound.</p>
+      </div>
+    </section>
+
+    <section id="finale" class="section-shell section finale-section">
+      <div class="flames" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="finale-content"><p class="eyebrow gold">04 / FINAL TRANSMISSION</p><h2>SET YOUR HEART<br><span>ABLAZE.</span></h2>
+        <p class="rengoku-quote">“Set your heart ablaze.”</p><p class="credit">Kyojuro Rengoku · <i>Demon Slayer: Kimetsu no Yaiba</i></p>
+        <p class="finale-message">Work hard. Be brave enough to try. Learn from mistakes instead of being ashamed of them. When something feels difficult, take a breath and try again. You do not have to be perfect to make progress.</p>
+        <div class="video-card"><div class="video-poster"><img src="assets/images/anime-art-14.webp" alt="Anime artwork supplied for the final encouragement section"><span class="play-mark" aria-hidden="true">▶</span></div><div class="video-details"><b>WATCH YOUR FINAL TRANSMISSION</b><p>Open the video you shared on TikTok. If it is unavailable, the link may have expired or the post may have changed.</p><a class="button button-primary" href="https://vt.tiktok.com/ZSg46dx8T/" target="_blank" rel="noopener noreferrer">WATCH ON TIKTOK ↗</a></div></div>
+        <p class="fine-print">The supplied TikTok link is external. This site does not download or host anime footage.</p>
+      </div>
+    </section>
+
+    <section class="section-shell brother-section">
+      <div class="brother-card"><p class="eyebrow">PERSONAL MESSAGE // FROM YOUR BIG BROTHER</p><h2>I'M ALREADY <span>PROUD OF YOU.</span></h2>
+        <p>Your exams matter, and I want you to give them your best. But remember that one paper does not define your intelligence, your character, or your future.</p>
+        <p>Prepare seriously. Walk into that room with courage. If a question gets difficult, breathe, think, and try again.</p>
+        <p>You have people who believe in you, including me.</p><p>Now go out there and make yourself proud.</p>
+        <p class="signature">YOUR BIG BROTHER <span aria-label="love">♥</span></p>
+        <a class="button button-primary" href="#top">↟ REPLAY THE MISSION</a>
+      </div>
+    </section>
+  </main>
+  <footer><span>OPERATION: SUCCESS</span><span>MADE WITH LOVE · UNOFFICIAL FAN PROJECT</span><a href="#top">BACK TO TOP ↑</a></footer>
+</body>
+</html>
